@@ -8,4 +8,4 @@ Scripts can generally be run with:
 ./script_name.py your_input_file.txt
 ```
 
-Alternatively, you can replace the input file with `text.txt` to test the script on the supplied input.
+If you omit an input filename, the script will run the `test.txt` files.

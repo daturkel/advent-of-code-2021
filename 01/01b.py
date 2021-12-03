@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Call with an input file as an argument, or else default to input_01.txt
+# Call with an input file as an argument, or else default to test.txt
 
 import logging
 import sys
@@ -53,7 +53,7 @@ def calc_num_increases(depths: list[int]) -> int:
 
 
 if __name__ == "__main__":
-    input_file = sys.argv[1] if len(sys.argv) > 1 else "./input_01.txt"
+    input_file = sys.argv[1] if len(sys.argv) > 1 else "./test.txt"
     with open(input_file, "r") as file:
         depths = [int(line) for line in file.readlines()]
 
