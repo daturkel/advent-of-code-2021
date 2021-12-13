@@ -2,7 +2,6 @@
 
 # Call with an input file as an argument, or else default to test.txt
 
-from itertools import product
 import logging
 import sys
 from time import perf_counter
